@@ -1,0 +1,45 @@
+.keyvis{
+  &__container{
+    & p{
+      font-size: 1.5rem;
+    }
+
+    & button{
+      background-color: $color-black;
+      color: $color-white;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 1rem 2rem;
+    }
+
+    &.animate{
+      & .grow{
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.grow{
+  transform: scale(0);
+  transition: transform .3s ease-in-out;
+}
+
+//this doesn't work... :(
+//supposed to draw the stroke but it's not...
+// path {
+//   stroke-dasharray: 5000;
+//   stroke-dashoffset: 5000;
+//   animation-name: draw;
+//   animation-duration: 1s;
+//   animation-fill-mode: forwards;
+// }
+
+// @keyframes draw {
+//   from { 
+//       stroke-dashoffset: 5000; 
+//   }
+//   to {  
+//      stroke-dashoffset: 0; 
+//   }
+// }
