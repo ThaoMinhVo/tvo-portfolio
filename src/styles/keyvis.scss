@@ -1,18 +1,19 @@
 .keyvis{
+  height: 65vh;
   &__container{
     & p{
-      font-size: 1.5rem;
+      font-size: 3vh;
     }
 
     & button{
       background-color: $color-black;
       color: $color-white;
-      font-size: 1rem;
+      font-size: 2vh;
       font-weight: 700;
-      padding: 1rem 2rem;
+      padding: 2vh 2vw;
     }
 
-    &.animate{
+    &.animate-svg{
       & .grow{
         transform: scale(1);
       }

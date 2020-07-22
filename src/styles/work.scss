@@ -1,0 +1,104 @@
+.work{
+  position: relative;
+  &::before, &::after{
+    content: "";
+    position: fixed;
+    height: 100vh;
+    width: 5vh;
+    background-color: $color-white;
+    z-index: 2;
+  }
+  &::before{
+    left: $nav-width;
+  }
+  &::after{
+    right: 0;
+  }
+
+  & .slide{
+    &__container{
+      height: 100%;
+      width: 100%;
+      padding: 5vh;
+    }
+    &__content{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      &-main{
+        background-color:rgba(211,176,80,.2);
+        @include flex-center;
+        & div{
+          & p{
+            max-width: 400px;
+          }
+        }
+        &--img{
+          flex: 0 0 60%;
+          display: flex;
+          justify-content: flex-end;
+          align-items:center;
+          height: 100%;
+          padding-right: 5vw;
+          & svg{
+            height: 60vh;
+            max-width: 35vw;
+          }
+        }
+        &--text{
+          flex: 0 0 40%;
+        }
+      }
+
+      &-work{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        &--bg{
+          position: absolute;
+          width: 100%;
+          background-color: #C1B2A2;
+          left: 0;
+          &-1{
+            top: 0;
+            opacity: 50%;
+            height: 35%;
+          }
+          &-2{
+            top: 35%;
+            height: 65%;
+          }
+        }
+        & small{
+          margin: 1vh 0;
+        }
+        & p{
+          max-width: 500px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.fp-controlArrow{
+  &.fp-prev{
+    left: 7vh;
+    width: 50px;
+    height: 50px;
+    border: none;
+    @include bg-contain;
+    background-image: url("../assets/images/arrow.svg");
+    transform: rotate(180deg);
+  }
+  &.fp-next{
+    right: 7vh;
+    width: 50px;
+    height: 50px;
+    border: none;
+    @include bg-contain;
+    background-image: url("../assets/images/arrow.svg");
+  }
+}
