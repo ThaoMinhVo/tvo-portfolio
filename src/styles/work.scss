@@ -85,18 +85,18 @@
 
 .fp-controlArrow{
   &.fp-prev{
-    left: 7vh;
-    width: 50px;
-    height: 50px;
+    left: 7vh !important;
+    width: 50px !important;
+    height: 50px !important;
     border: none;
     @include bg-contain;
     background-image: url("../assets/images/arrow.svg");
     transform: rotate(180deg);
   }
   &.fp-next{
-    right: 7vh;
-    width: 50px;
-    height: 50px;
+    right: 7vh !important;
+    width: 50px !important;
+    height: 50px !important;
     border: none;
     @include bg-contain;
     background-image: url("../assets/images/arrow.svg");
