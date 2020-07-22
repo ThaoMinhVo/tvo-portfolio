@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1ad3fde.chunk.css",
+    "main.js": "/static/js/main.0d20dded.chunk.js",
+    "main.js.map": "/static/js/main.0d20dded.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2e8ffcea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2e8ffcea.js.map",
+    "static/js/2.2ad20f03.chunk.js": "/static/js/2.2ad20f03.chunk.js",
+    "static/js/2.2ad20f03.chunk.js.map": "/static/js/2.2ad20f03.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e3a2027a3c37bb08c3b77d2681939330.js": "/precache-manifest.e3a2027a3c37bb08c3b77d2681939330.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.c1ad3fde.chunk.css.map": "/static/css/main.c1ad3fde.chunk.css.map",
+    "static/js/2.2ad20f03.chunk.js.LICENSE.txt": "/static/js/2.2ad20f03.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/static/media/logo.e6f15fc9.svg",
+    "static/media/automation.png": "/static/media/automation.dfa4bb14.png",
+    "static/media/cny.png": "/static/media/cny.cd252816.png",
+    "static/media/email.svg": "/static/media/email.b122145d.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.1b209d65.svg",
+    "static/media/luxury.png": "/static/media/luxury.86f37537.png",
+    "static/media/main-kv.13fc0e75.svg": "/static/media/main-kv.13fc0e75.svg",
+    "static/media/trading.png": "/static/media/trading.4de000ec.png",
+    "static/media/travel.png": "/static/media/travel.a9e8a715.png",
+    "static/media/what-im-up-to.ab5e67b3.svg": "/static/media/what-im-up-to.ab5e67b3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e8ffcea.js",
+    "static/js/2.2ad20f03.chunk.js",
+    "static/css/main.c1ad3fde.chunk.css",
+    "static/js/main.0d20dded.chunk.js"
+  ]
+}
