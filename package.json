@@ -2,7 +2,7 @@
   "name": "tvo-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://thaomvo.com/",
+  "homepage" : "http://thaomvo.com/",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.17",
     "@testing-library/jest-dom": "^4.2.4",
