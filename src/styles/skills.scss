@@ -14,77 +14,17 @@
 
     &-dev{
       background-color: rgba(180,225,216,.2);
-      & .skills__timeline--group::after{
+      & .timeline--group::after{
         background-color: $color-blue;
       }
     }
 
     &-design{
       background-color: rgba(211,176,80,.2);
-      & .skills__timeline--group::after{
+      & .timeline--group::after{
         background-color: $color-salmon;
       }
     }
   }
-
-  &__timeline{
-    height: 90%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    position: relative;
-
-    &::after{
-      content:"";
-      position: absolute;
-      height: 100%;
-      width: 1px;
-      background-color: $color-gold;
-      left: 50%;
-      top: 0;
-      transform: translateX(-50%);
-    }
-
-    &--group{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      position: relative;
-
-      &::after{
-        content:"";
-        position: absolute;
-        height: 1.2vh;
-        width: 1.2vh;
-        border-radius:50%;
-        background-color: $color-gold; //color is set dependent of skills__block-dev/design
-        left: 50%;
-        top: 1vh;
-        transform: translateX(-50%);
-        z-index: 1;
-      }
-
-      & *{
-        flex: 0 0 50%;
-      }
-
-      & h3 {
-        text-align: right;
-        padding-right: 1rem;
-        font-size: 2.5vh;
-      }
-
-      & div {
-        margin: 0;
-        padding-left: 1rem;
-        & p {
-          margin: 0;
-          width: 100%;
-          max-width: 250px;
-        }
-      }
-    }
-  }
 }
+

@@ -11,7 +11,7 @@ function Nav(){
         <a href="mailto:thaomvo@gmail.com">
           <img src={mailIcon} alt="email"/>
         </a>
-        <a href="www.linkedin.com/in/thaomvo">
+        <a href="https://www.linkedin.com/in/thaomvo" target="_blank" rel="noopener noreferrer">
           <img src={linkedinIcon} alt="linkedin"/>
         </a>
       </div>

@@ -28,8 +28,8 @@ button{
 }
 
 p{
-  font-size: 2vh;
-  line-height: 3vh;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
 }
 
 small{
@@ -42,12 +42,14 @@ small{
   min-height: 100vh;
 }
 
-.fullpage{
-  height: 100vh;
-  width: 100%;
-}
-
 .text{
+  &-block{
+    max-width: 800px;
+    width: 70vw;
+  }
+  &-center{
+    text-align: center;
+  }
   &-bold{
     font-weight: 700;
   }
@@ -59,4 +61,125 @@ small{
 
 .flex-center-col{
   @include flex-center-col;
+}
+
+/* timeline */
+.timeline{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+
+  &::after{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: $color-gold;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  & p{
+    margin: 0;
+  }
+
+  &--group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+
+    &::after{
+      content:"";
+      position: absolute;
+      height: 1.2vh;
+      width: 1.2vh;
+      border-radius:50%;
+      background-color: $color-gold; //color is set dependent of skills__block-dev/design
+      left: 50%;
+      top: 1vh;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+
+    &-blue{
+      & h1, & h2, & h3, & h4{
+        color: $color-blue;
+      }
+      &::after{
+        background-color: $color-blue;
+      }
+    }
+
+    &-salmon{
+      & h1, & h2, & h3, & h4{
+        color: $color-salmon;
+      }
+      &::after{
+        background-color: $color-salmon;
+      }
+    }
+
+    & *{
+      flex: 0 0 50%;
+
+      & ul{
+        margin: 0;
+        width: 35vw
+      }
+    }
+
+    &__left{
+      padding-right: 1rem;
+      text-align: right;
+      & h3 {
+        font-size: 2.5vh;
+      }
+    }
+
+    &__right{
+      padding-left: 1rem;
+      & p {
+        width: 15vw;
+      }
+    }
+  }
+
+  //modifying classes for timeline
+  &-skills{
+    height: 90%;
+  }
+  &-about{
+    width: 95%;
+    margin-top: 2vh;
+    & .timeline--group{
+      margin-bottom: 5vh;
+    }
+    & h4{
+      margin: 0;
+      text-transform: capitalize;
+    }
+    & p{
+      font-size: 1.8vh;
+      line-height: 2.8vh;
+    }
+
+    & ul{
+      & li{
+        font-size: 1.5vh;
+        line-height: 2.5vh;
+      }
+    }
+  }
+}
+
+/* timeline -- END */
+
+.fp-scroller{
+
 }

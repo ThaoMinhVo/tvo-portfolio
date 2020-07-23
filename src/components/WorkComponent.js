@@ -1,10 +1,5 @@
 import React from "react"
 
-/**
- * Current solution for the images work but remember that in your case a 
- * bundler (say webpack) will add all images from the images folder to the final bundle.
- */
-
 function WorkComponent(props){
   return(
     <div className="slide">
@@ -16,7 +11,7 @@ function WorkComponent(props){
             <img src={require(`../assets/images/work/${props.work.img}`)} alt="work-img"/>
             <h2>{props.work.header}</h2>
             <small>{props.work.contribution}</small>
-            <p>{props.work.description}</p>
+            <p className="text-block text-center">{props.work.description}</p>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@
           left: 0;
           &-1{
             top: 0;
-            opacity: 50%;
+            opacity: .5;
             height: 35%;
           }
           &-2{
@@ -71,12 +71,19 @@
             height: 65%;
           }
         }
+        & img{
+          height: 60vh;
+          //maybe a max width here
+        }
+        & h2{
+          margin-top: 2vh;
+        }
+
         & small{
           margin: 1vh 0;
         }
         & p{
-          max-width: 500px;
-          text-align: center;
+          margin: 0;
         }
       }
     }
@@ -86,8 +93,8 @@
 .fp-controlArrow{
   &.fp-prev{
     left: 7vh !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 5vh !important;
+    height: 5vh !important;
     border: none;
     @include bg-contain;
     background-image: url("../assets/images/arrow.svg");
@@ -95,8 +102,8 @@
   }
   &.fp-next{
     right: 7vh !important;
-    width: 50px !important;
-    height: 50px !important;
+    width: 5vh !important;
+    height: 5vh !important;
     border: none;
     @include bg-contain;
     background-image: url("../assets/images/arrow.svg");
