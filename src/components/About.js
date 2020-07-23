@@ -6,8 +6,8 @@ class About extends Component{
   render(){
     return(
       <section className="section">
-        <div>
-          <div className="flex-center-col about--wrapper">
+        <div className="section--wrapper">
+          <div className="flex-center-col">
             <h1 className="about--header">About Me</h1>
             <small className="text-block text-center">I have 5 plus years of front-end web development experience. Occassionally I enjoy dipping
               my hands in UI/UX design. I am an eager learner ready to jump into a fast-pace
@@ -77,11 +77,11 @@ class About extends Component{
               </div>
               <div className="timeline--group timeline--group-salmon">
                 <div className="timeline--group__left">
-                  <h4>B.S. Computer Science <br/> <small>Threads - Media & Information Internetworks</small></h4>
-                  <p>Georgia Institute of Technology (Atlanta, GA)</p>
+                  <p>Graduated: Dec. 2015</p>
                 </div>
                 <div className="timeline--group__right">
-                  <p>Graduated: Dec. 2015</p>
+                  <h4>B.S. Computer Science <br/> <small>Threads - Media & Information Internetworks</small></h4>
+                  <p>Georgia Institute of Technology (Atlanta, GA)</p>
                 </div>
               </div>
               <div className="timeline--group timeline--group-blue">
@@ -92,7 +92,7 @@ class About extends Component{
                   <h4>Front end web applications (CMS) Developer Co-op</h4>
                   <p>Hannon Hill Corp</p>
                   <ul>
-                    <li>Organized & tested code with JUnits to ensure quality assurance and fast performance</li>
+                    <li>Organized & performed JUnit testing to ensure quality assurance and fast performance</li>
                     <li>Created responsive form fields using Java, JSON, jQuery, JavaScript, XML, CSS</li>
                   </ul>
                 </div>

@@ -3,10 +3,10 @@ import React from "react"
 function WorkComponent(props){
   return(
     <div className="slide">
-      <div className="slide__container">
+      <div className="section--wrapper">
         <div className="slide__content">
-          <div className="slide__content-work--bg slide__content-work--bg-1" style={{backgroundColor:props.work.color}}></div>
-          <div className="slide__content-work--bg slide__content-work--bg-2" style={{backgroundColor:props.work.color}}></div>
+          <div className="slide__content-work--bg" style={{backgroundColor:props.work.color}}></div>
+          {/* <div className="slide__content-work--bg slide__content-work--bg-2" style={{backgroundColor:props.work.color}}></div> */}
           <div className="slide__content slide__content-work">
             <img src={require(`../assets/images/work/${props.work.img}`)} alt="work-img"/>
             <h2>{props.work.header}</h2>

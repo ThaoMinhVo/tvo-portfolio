@@ -1,16 +1,24 @@
 .skills{
   &__container{
-    width: 95%;
-    height: 80vh;
+    width: 100%;
+    height: 100%;
     margin-top: 2vh;
     display: flex;
+
+    @include respond(condense){
+      flex-direction: column;
+    }
   }
 
   &__block{
     flex: 0 0 50%;
     height: 100%;
     @include flex-space-col;
-    padding: 2rem;
+    padding: 5vh;
+
+    @include respond(condense){
+      flex: 0 0 100%;
+    }
 
     &-dev{
       background-color: rgba(180,225,216,.2);

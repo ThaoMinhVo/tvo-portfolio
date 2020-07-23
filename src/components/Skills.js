@@ -6,7 +6,7 @@ class Skills extends Component{
   render(){
     return(
       <section className="section">
-        <div className="flex-center-col">
+        <div className="section--wrapper flex-center-col">
           <h1>Skills</h1>
           <div className="skills__container">
           <div className="skills__block skills__block-dev">

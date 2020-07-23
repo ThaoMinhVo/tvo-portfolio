@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import {ReactComponent as WorkImg} from "../assets/images/what-im-up-to.svg"
+import {ReactComponent as WorkImg} from "../assets/images/graphics/what-im-up-to.svg"
 import WorkComponent from "./WorkComponent"
 import workData from '../assets/js/workData'
 
@@ -13,7 +13,7 @@ class Work extends Component{
     return(
       <section className="work flex-center-col section">
         <div className="slide slide-main">
-          <div className="slide__container">
+          <div className="section--wrapper">
             <div className="slide__content slide__content-main">
               <div className="slide__content-main--img">
                 <WorkImg />

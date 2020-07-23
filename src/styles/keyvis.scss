@@ -1,11 +1,20 @@
 .keyvis{
-  height: 65vh;
+  max-height: 65vh;
+  max-width: 70vw;
+  @include respond(tab-pro){
+    margin-bottom: 5vh;
+  }
   &__container{
     & p{
       font-size: 3vh;
+
+      @include respond(tab-pro){
+        font-size: 3.5vw;
+        line-height: 5vw;
+      }
     }
 
-    & button{
+    & a{
       background-color: $color-black;
       color: $color-white;
       font-size: 2vh;

@@ -30,21 +30,54 @@ button{
 p{
   font-size: 2.5vh;
   line-height: 3.5vh;
+
+  @include respond(mobile){
+    font-size: 3vw;
+    line-height: 5vw;
+  }
 }
 
 small{
   font-weight: 200;
 }
 
+a{
+  color: unset;
+  text-decoration: unset;
+  &:active{
+    color: inherit
+  }
+}
+
 .wrapper{
   padding-left: $nav-width;
   width: 100vw;
   min-height: 100vh;
+  @include respond(tab-pro){
+    padding-left: 0;
+  }
+}
+
+.section{
+  &--wrapper{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    padding: $website-padding;
+    @include respond(tab-pro){
+      padding-top: 13vh; // 8vh for the nav + 5vh for the original padding
+    }
+
+    @include respond(mobile){
+      padding: $website-mobile-padding;
+      padding-top: calc(8vh + #{$website-mobile-padding});
+    }
+  }
 }
 
 .text{
   &-block{
-    max-width: 800px;
+    max-width: 1000px;
     width: 70vw;
   }
   &-center{
@@ -72,6 +105,10 @@ small{
   flex-direction: column;
   position: relative;
 
+  @include respond(condense){
+    margin-top: 2vh;
+  }
+
   &::after{
     content:"";
     position: absolute;
@@ -81,6 +118,9 @@ small{
     left: 50%;
     top: 0;
     transform: translateX(-50%);
+    @include respond(condense){
+      left: 40%;
+    }
   }
 
   & p{
@@ -94,6 +134,10 @@ small{
     align-items: flex-start;
     position: relative;
 
+    @include respond(condense){
+      margin-bottom: 2vh;
+    }
+
     &::after{
       content:"";
       position: absolute;
@@ -105,6 +149,9 @@ small{
       top: 1vh;
       transform: translateX(-50%);
       z-index: 1;
+      @include respond(condense){
+        left: 40%;
+      }
     }
 
     &-blue{
@@ -127,25 +174,42 @@ small{
 
     & *{
       flex: 0 0 50%;
-
       & ul{
         margin: 0;
-        width: 35vw
+        max-width: 900px;
+        width: 35vw;
+
+        @include respond(tab-pro){
+          width: 45vw;
+        }
       }
     }
 
     &__left{
       padding-right: 1rem;
       text-align: right;
+      @include respond(condense){
+        flex: 0 0 40%;
+      }
       & h3 {
         font-size: 2.5vh;
+
+        @include respond(mobile){
+          font-size: 3vw;
+        }
       }
     }
 
     &__right{
       padding-left: 1rem;
+      @include respond(condense){
+        flex: 0 0 60%;
+      }
       & p {
-        width: 15vw;
+        max-width: 15vw;
+        @include respond(condense){
+          max-width: 80%;
+        }
       }
     }
   }
@@ -157,8 +221,27 @@ small{
   &-about{
     width: 95%;
     margin-top: 2vh;
-    & .timeline--group{
-      margin-bottom: 5vh;
+    &::after{
+      left: 40%;
+    }
+
+    & .timeline{
+      &--group{
+        margin-bottom: 5vh;
+        &::after{
+          left: 40%;
+        }
+        &__left{
+          flex: 0 0 40%;
+        }
+        &__right{
+          flex: 0 0 60%;
+          & p {
+            max-width: 25vw;
+          }
+        }
+        
+      }
     }
     & h4{
       margin: 0;
@@ -179,7 +262,3 @@ small{
 }
 
 /* timeline -- END */
-
-.fp-scroller{
-
-}

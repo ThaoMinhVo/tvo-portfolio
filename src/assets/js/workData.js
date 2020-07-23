@@ -1,7 +1,7 @@
 const workData = [
   {
     id: 1,
-    color: "#C1B2A2",
+    color: "#CDC1B5",
     img: "automation.png",
     header: "Automation Tool",
     contribution: "Developed and Designed",
@@ -9,7 +9,7 @@ const workData = [
   },
   {
     id: 2,
-    color: "#A1ADBB",
+    color: "#C2C2C2",
     img: "trading.png",
     header: "Stock Trading Application",
     contribution: "Developed and Designed",
@@ -17,7 +17,7 @@ const workData = [
   },
   {
     id: 3,
-    color: "#DDBAB4",
+    color: "#DBC0C0",
     img: "travel.png",
     header: "Travel Tourism Website",
     contribution: "Developed",
@@ -25,7 +25,7 @@ const workData = [
   },
   {
     id: 4,
-    color: "#AFC3BB",
+    color: "#B6CAC2",
     img: "luxury.png",
     header: "Branding Website",
     contribution: "Developed",
@@ -33,7 +33,7 @@ const workData = [
   },
   {
     id: 5,
-    color: "#98BBCF",
+    color: "#AEC6D4",
     img: "cny.png",
     header: "Mobile Campaign Web Page",
     contribution: "Developed",
