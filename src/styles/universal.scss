@@ -69,6 +69,7 @@ a{
     }
 
     @include respond(mobile){
+      min-height: unset;
       padding: $website-mobile-padding;
       padding-top: calc(8vh + #{$website-mobile-padding});
     }

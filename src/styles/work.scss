@@ -27,6 +27,10 @@
       position: relative;
       height: 100%;
       width: 100%;
+
+      @include respond(mobile){
+        min-height: calc(100vh - (#{$website-mobile-padding}*2) - (8vh*2));
+      }
       &-main{
         background-color:rgba(211,176,80,.2);
         @include flex-center;
@@ -34,6 +38,11 @@
           flex-direction: column;
           text-align: center;
         }
+
+        @include respond(mobile){
+          min-height: calc(100vh - (#{$website-mobile-padding}*2) - (8vh*2));
+        }
+
         & div{
           & p{
             max-width: 400px;
