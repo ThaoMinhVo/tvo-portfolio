@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.80a04648.chunk.css",
-    "main.js": "/static/js/main.b710304f.chunk.js",
-    "main.js.map": "/static/js/main.b710304f.chunk.js.map",
+    "main.css": "/static/css/main.613dbdf7.chunk.css",
+    "main.js": "/static/js/main.c499c633.chunk.js",
+    "main.js.map": "/static/js/main.c499c633.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2e8ffcea.js",
     "runtime-main.js.map": "/static/js/runtime-main.2e8ffcea.js.map",
     "static/js/2.2ad20f03.chunk.js": "/static/js/2.2ad20f03.chunk.js",
     "static/js/2.2ad20f03.chunk.js.map": "/static/js/2.2ad20f03.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b31ac0fd011676bcd4c7254da1384402.js": "/precache-manifest.b31ac0fd011676bcd4c7254da1384402.js",
+    "precache-manifest.c4dee77f7754b252c1c7e1304c23b367.js": "/precache-manifest.c4dee77f7754b252c1c7e1304c23b367.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.80a04648.chunk.css.map": "/static/css/main.80a04648.chunk.css.map",
+    "static/css/main.613dbdf7.chunk.css.map": "/static/css/main.613dbdf7.chunk.css.map",
     "static/js/2.2ad20f03.chunk.js.LICENSE.txt": "/static/js/2.2ad20f03.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/static/media/logo.e6f15fc9.svg",
-    "static/media/automation.png": "/static/media/automation.dfa4bb14.png",
-    "static/media/cny.png": "/static/media/cny.cd252816.png",
+    "static/media/automation.png": "/static/media/automation.eb3423b3.png",
+    "static/media/cny.png": "/static/media/cny.8b63faf1.png",
     "static/media/email.svg": "/static/media/email.b122145d.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.1b209d65.svg",
-    "static/media/luxury.png": "/static/media/luxury.86f37537.png",
+    "static/media/luxury.png": "/static/media/luxury.7c4dff7b.png",
     "static/media/main-kv.13fc0e75.svg": "/static/media/main-kv.13fc0e75.svg",
-    "static/media/trading.png": "/static/media/trading.4de000ec.png",
-    "static/media/travel.png": "/static/media/travel.a9e8a715.png",
+    "static/media/trading.png": "/static/media/trading.836e6abf.png",
+    "static/media/travel.png": "/static/media/travel.6bce2aae.png",
     "static/media/what-im-up-to.ab5e67b3.svg": "/static/media/what-im-up-to.ab5e67b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e8ffcea.js",
     "static/js/2.2ad20f03.chunk.js",
-    "static/css/main.80a04648.chunk.css",
-    "static/js/main.b710304f.chunk.js"
+    "static/css/main.613dbdf7.chunk.css",
+    "static/js/main.c499c633.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d92251c779cbe21f20f2f3a5bbd70da9",
+    "revision": "bf8c662b0184642e2df75435ffd359cb",
     "url": "/index.html"
   },
   {
-    "revision": "be26f023635deb9ce4f0",
-    "url": "/static/css/main.80a04648.chunk.css"
+    "revision": "97191dee11b27ce810d0",
+    "url": "/static/css/main.613dbdf7.chunk.css"
   },
   {
     "revision": "aea9963a0b4945f270eb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2ad20f03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be26f023635deb9ce4f0",
-    "url": "/static/js/main.b710304f.chunk.js"
+    "revision": "97191dee11b27ce810d0",
+    "url": "/static/js/main.c499c633.chunk.js"
   },
   {
     "revision": "2cde1a02d3115346b942",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arrow.d6837aec.svg"
   },
   {
-    "revision": "dfa4bb1430f3cf21aad2221703ad4530",
-    "url": "/static/media/automation.dfa4bb14.png"
+    "revision": "eb3423b3adcc83951d97635d90353e27",
+    "url": "/static/media/automation.eb3423b3.png"
   },
   {
-    "revision": "cd2528161ff31c0d41ff67c4c49d21e9",
-    "url": "/static/media/cny.cd252816.png"
+    "revision": "8b63faf17d74b566ced1002757952b12",
+    "url": "/static/media/cny.8b63faf1.png"
   },
   {
     "revision": "b122145d6de3f4dda2cb5b4d291c8cea",
@@ -48,20 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.e6f15fc9.svg"
   },
   {
-    "revision": "86f37537df1ae1f6e1f1f78835170836",
-    "url": "/static/media/luxury.86f37537.png"
+    "revision": "7c4dff7b997de9feb25d96dc20d38207",
+    "url": "/static/media/luxury.7c4dff7b.png"
   },
   {
     "revision": "13fc0e75f29ebb8b8fca105619b73105",
     "url": "/static/media/main-kv.13fc0e75.svg"
   },
   {
-    "revision": "4de000ec16ea20e8ccda19ff7c23ff6b",
-    "url": "/static/media/trading.4de000ec.png"
+    "revision": "836e6abfaf5d4cd44872f6b3f16d8552",
+    "url": "/static/media/trading.836e6abf.png"
   },
   {
-    "revision": "a9e8a715cd0eef04921d3f4ea9731290",
-    "url": "/static/media/travel.a9e8a715.png"
+    "revision": "6bce2aaea2f93d6c15d1cdef5459a8ef",
+    "url": "/static/media/travel.6bce2aae.png"
   },
   {
     "revision": "ab5e67b3d5c9e3169dc91411a9e544da",
