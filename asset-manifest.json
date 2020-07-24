@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.2625a4d8.chunk.css",
-    "main.js": "/static/js/main.d95b0e2a.chunk.js",
-    "main.js.map": "/static/js/main.d95b0e2a.chunk.js.map",
+    "main.js": "/static/js/main.6d3b4f94.chunk.js",
+    "main.js.map": "/static/js/main.6d3b4f94.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2e8ffcea.js",
     "runtime-main.js.map": "/static/js/runtime-main.2e8ffcea.js.map",
     "static/js/2.2ad20f03.chunk.js": "/static/js/2.2ad20f03.chunk.js",
     "static/js/2.2ad20f03.chunk.js.map": "/static/js/2.2ad20f03.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0783fed95e7c7a7c8a5331389e7eda61.js": "/precache-manifest.0783fed95e7c7a7c8a5331389e7eda61.js",
+    "precache-manifest.49d150e4dd7b23e7b3e5c7a27924f66c.js": "/precache-manifest.49d150e4dd7b23e7b3e5c7a27924f66c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2625a4d8.chunk.css.map": "/static/css/main.2625a4d8.chunk.css.map",
     "static/js/2.2ad20f03.chunk.js.LICENSE.txt": "/static/js/2.2ad20f03.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/static/media/logo.e6f15fc9.svg",
-    "static/media/automation.png": "/static/media/automation.eb3423b3.png",
-    "static/media/cny.png": "/static/media/cny.8b63faf1.png",
+    "static/media/automation.png": "/static/media/automation.bab7dfc6.png",
+    "static/media/cny.png": "/static/media/cny.1665a664.png",
     "static/media/code-struction.da56c7fe.svg": "/static/media/code-struction.da56c7fe.svg",
     "static/media/email.svg": "/static/media/email.dcbb06d1.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.4902ae42.svg",
-    "static/media/luxury.png": "/static/media/luxury.7c4dff7b.png",
+    "static/media/luxury.png": "/static/media/luxury.1a837276.png",
     "static/media/main-kv.314d37fb.svg": "/static/media/main-kv.314d37fb.svg",
-    "static/media/trading.png": "/static/media/trading.836e6abf.png",
-    "static/media/travel.png": "/static/media/travel.6bce2aae.png",
+    "static/media/trading.png": "/static/media/trading.4721c743.png",
+    "static/media/travel.png": "/static/media/travel.c28eba27.png",
     "static/media/what-im-up-to.ab5e67b3.svg": "/static/media/what-im-up-to.ab5e67b3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2e8ffcea.js",
     "static/js/2.2ad20f03.chunk.js",
     "static/css/main.2625a4d8.chunk.css",
-    "static/js/main.d95b0e2a.chunk.js"
+    "static/js/main.6d3b4f94.chunk.js"
   ]
 }

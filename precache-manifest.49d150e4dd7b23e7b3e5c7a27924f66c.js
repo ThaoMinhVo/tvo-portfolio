@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a8a0c9bc5fdba28893c1eec02ce7734",
+    "revision": "31dfb95ee6311dc87c0117d828de573f",
     "url": "/index.html"
   },
   {
-    "revision": "2fc3a50cc5d5970c8edb",
+    "revision": "7714b79fab0b24a32c84",
     "url": "/static/css/main.2625a4d8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2ad20f03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fc3a50cc5d5970c8edb",
-    "url": "/static/js/main.d95b0e2a.chunk.js"
+    "revision": "7714b79fab0b24a32c84",
+    "url": "/static/js/main.6d3b4f94.chunk.js"
   },
   {
     "revision": "2cde1a02d3115346b942",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arrow.e39eb363.svg"
   },
   {
-    "revision": "eb3423b3adcc83951d97635d90353e27",
-    "url": "/static/media/automation.eb3423b3.png"
+    "revision": "bab7dfc6e7c0e0a390140df0320aee84",
+    "url": "/static/media/automation.bab7dfc6.png"
   },
   {
-    "revision": "8b63faf17d74b566ced1002757952b12",
-    "url": "/static/media/cny.8b63faf1.png"
+    "revision": "1665a664ee28a7b05979af1735b2537a",
+    "url": "/static/media/cny.1665a664.png"
   },
   {
     "revision": "da56c7feb33fd7bbf39c146be7e4ae35",
@@ -52,20 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.e6f15fc9.svg"
   },
   {
-    "revision": "7c4dff7b997de9feb25d96dc20d38207",
-    "url": "/static/media/luxury.7c4dff7b.png"
+    "revision": "1a8372767307527650119a3c3c542fae",
+    "url": "/static/media/luxury.1a837276.png"
   },
   {
     "revision": "314d37fbd8c39fdf5b60c17fff2045c6",
     "url": "/static/media/main-kv.314d37fb.svg"
   },
   {
-    "revision": "836e6abfaf5d4cd44872f6b3f16d8552",
-    "url": "/static/media/trading.836e6abf.png"
+    "revision": "4721c743f9b16277e883f1b4ae1f6eaa",
+    "url": "/static/media/trading.4721c743.png"
   },
   {
-    "revision": "6bce2aaea2f93d6c15d1cdef5459a8ef",
-    "url": "/static/media/travel.6bce2aae.png"
+    "revision": "c28eba272dafb908c3995cbf81103774",
+    "url": "/static/media/travel.c28eba27.png"
   },
   {
     "revision": "ab5e67b3d5c9e3169dc91411a9e544da",
