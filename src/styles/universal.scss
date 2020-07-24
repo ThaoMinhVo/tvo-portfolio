@@ -80,6 +80,10 @@ a{
   &-block{
     max-width: 1000px;
     width: 70vw;
+
+    @include respond(mobile){
+      width: 85vw;
+    }
   }
   &-center{
     text-align: center;
@@ -224,22 +228,47 @@ a{
     margin-top: 2vh;
     &::after{
       left: 40%;
+      @include respond(mobile){
+        left: 2vw;
+      }
     }
 
     & .timeline{
       &--group{
         margin-bottom: 5vh;
+        @include respond(mobile){
+          flex-direction: column;
+        }
         &::after{
           left: 40%;
+          @include respond(mobile){
+            left: 2vw;
+          }
         }
         &__left{
           flex: 0 0 40%;
+          @include respond(mobile){
+            padding-right: 0;
+            padding-left: 6vw;
+          }
         }
         &__right{
           flex: 0 0 60%;
+          @include respond(mobile){
+            padding-left: 6vw;
+          }
+
           & p {
             max-width: 25vw;
           }
+
+          & p, & ul{
+            @include respond(mobile){
+              max-width: unset;
+              width: 80vw;
+            }
+          }
+          
         }
         
       }
