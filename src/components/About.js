@@ -11,7 +11,7 @@ class About extends Component{
             <h1 className="about--header">About Me</h1>
             <small className="text-block text-center">I have 5 plus years of front-end web development experience. Occassionally I enjoy dipping
               my hands in UI/UX design. I am an eager learner ready to jump into a fast-pace
-              environment with a great team! You can find my resume below or download the PDF here.</small>
+              environment with a great team! You can find my resume below or <a className ="resume-btn" href="./TerraThaoVo-Resume.pdf" target="_blank" rel="noopener noreferrer">download the PDF here.</a></small>
             <div className="timeline timeline-about">
               <div className="timeline--group timeline--group-blue">
                 <div className="timeline--group__left">
