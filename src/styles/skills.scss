@@ -5,7 +5,7 @@
     margin-top: 2vh;
     display: flex;
 
-    @include respond(condense){
+    @include respond(tab-pro){
       flex-direction: column;
     }
   }
@@ -16,7 +16,7 @@
     @include flex-space-col;
     padding: 5vh;
 
-    @include respond(condense){
+    @include respond(tab-pro){
       flex: 0 0 100%;
     }
 

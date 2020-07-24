@@ -110,7 +110,7 @@ a{
   flex-direction: column;
   position: relative;
 
-  @include respond(condense){
+  @include respond(tab-pro){
     margin-top: 2vh;
   }
 
@@ -123,7 +123,7 @@ a{
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    @include respond(condense){
+    @include respond(tab-pro){
       left: 40%;
     }
   }
@@ -139,7 +139,7 @@ a{
     align-items: flex-start;
     position: relative;
 
-    @include respond(condense){
+    @include respond(tab-pro){
       margin-bottom: 2vh;
     }
 
@@ -154,7 +154,7 @@ a{
       top: 1vh;
       transform: translateX(-50%);
       z-index: 1;
-      @include respond(condense){
+      @include respond(tab-pro){
         left: 40%;
       }
     }
@@ -193,7 +193,7 @@ a{
     &__left{
       padding-right: 1rem;
       text-align: right;
-      @include respond(condense){
+      @include respond(tab-pro){
         flex: 0 0 40%;
       }
       & h3 {
@@ -207,12 +207,12 @@ a{
 
     &__right{
       padding-left: 1rem;
-      @include respond(condense){
+      @include respond(tab-pro){
         flex: 0 0 60%;
       }
       & p {
         max-width: 15vw;
-        @include respond(condense){
+        @include respond(tab-pro){
           max-width: 80%;
         }
       }
@@ -292,3 +292,15 @@ a{
 }
 
 /* timeline -- END */
+
+.path {
+  stroke-dasharray: 200;
+  animation: dash 5s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
